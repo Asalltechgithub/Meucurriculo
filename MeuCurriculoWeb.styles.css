@@ -1,0 +1,264 @@
+/* /Pages/Index.razor.rz.scp.css */
+.buttonModal[b-sa9qiwo6ww] {
+    position: relative;
+    z-index: 2;
+    margin-top: -10px;
+    grid-gap: 5px 8px;
+}
+.spinner[b-sa9qiwo6ww] {
+    margin-top: 20%;
+    text-align: center
+}
+/* /Shared/Contato.razor.rz.scp.css */
+
+.contato label[b-q5iat0f0ts]{
+
+    color:white;
+
+}
+/* /Shared/CursosExtras.razor.rz.scp.css */
+.zoom[b-2lflpmth35] {
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+    .zoom:hover[b-2lflpmth35] {
+        -ms-transform: scale(2.9); /* IE 9 */
+        -webkit-transform: scale(2.9); /* Safari 3-8 */
+        transform: scale(2.9);
+        position:relative center;
+        z-index:5
+
+    }
+/* /Shared/ExibirSpinner.razor.rz.scp.css */
+.lds-dual-ring[b-wtmtllrivy] {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+    .lds-dual-ring[b-wtmtllrivy]:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid #fff;
+        border-color: #fff transparent #fff transparent;
+        animation: lds-dual-ring-b-wtmtllrivy 1.2s linear infinite;
+    }
+
+@keyframes lds-dual-ring-b-wtmtllrivy {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-iuygi1p1p7] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-iuygi1p1p7] {
+    flex: 1;
+}
+.whatsapp[b-iuygi1p1p7] {
+    padding: 1px 20px;
+    border-color: white;
+    border-radius: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20%;
+    left: 88%;
+    z-index: 5;
+    
+}
+    .whatsapp:hover[b-iuygi1p1p7] {
+        -ms-transform: scale(1.5);  
+        -webkit-transform: scale(1.5);  
+        transform: scale(1.5);
+        position: relative center;
+        z-index: 5
+    }
+
+  
+
+    
+
+
+
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-iuygi1p1p7] {
+        display: none;
+    }
+    .whatsapp[b-iuygi1p1p7] {
+        padding: 1px 20px;
+        border-color: white;
+        border-radius: 50px;
+        width: 200px;
+        position: fixed;
+        bottom: 20%;
+        left: 88%;
+        z-index: 2;
+    }
+        .whatsapp:hover[b-iuygi1p1p7] {
+            -ms-transform: scale(0.5);  
+            -webkit-transform: scale(0.5); 
+            position: relative center;
+            z-index: 5
+        }
+    .top-row.auth[b-iuygi1p1p7] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-iuygi1p1p7]  a, .top-row[b-iuygi1p1p7]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-iuygi1p1p7] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-iuygi1p1p7] {
+        width: 250px;
+        height: 100vh;
+        position: center;
+        top: 0;
+    }
+    .whatsapp[b-iuygi1p1p7] {
+        padding: 1px 20px;
+        border-color: white;
+        border-radius: 50px;
+        width: 200px;
+        position: fixed;
+        bottom: 20%;
+        left: 88%;
+        z-index: 2;
+    }
+        /*.whatsapp:hover {
+            -ms-transform: scale(2.5);*/ /* IE 9 */
+            /*-webkit-transform: scale(2.5);*/ /* Safari 3-8 */
+            /*transform: scale(2.5);
+            position: relative center;
+            z-index: 5
+        }*/
+    .top-row[b-iuygi1p1p7] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-iuygi1p1p7]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-iuygi1p1p7], article[b-iuygi1p1p7] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+
+
+.navbar[b-kjriizmtc8]{
+
+padding-top:0.5%;
+opacity:75%;
+
+}
+.navbar:hover[b-kjriizmtc8] {
+    padding-top: 1.5%;
+    opacity: 100%;
+    background-color:ActiveBorder;
+}
+
+.buttonModal[b-kjriizmtc8] {
+    position:relative;
+    padding-top: 5%;
+    z-index:5
+     
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-kjriizmtc8] {
+        display: none;
+    }
+
+    .collapse[b-kjriizmtc8] {
+        Never collapse the sidebar for wide screens display: block;
+    }
+}
+/* /Shared/ProjetosComponents.razor.rz.scp.css */
+/* /Shared/SocialMedia.razor.rz.scp.css */
+/* Facebook */
+.fa-facebook[b-f2f2g7av25] {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+/* Twitter */
+.fa-twitter[b-f2f2g7av25] {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+.fa-github[b-f2f2g7av25] {
+    background: rgba(0, 0, 0, 1.5);
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+.fa-instagram[b-f2f2g7av25] {
+    background-color: rgb(191, 54, 168);
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+.fa-google[b-f2f2g7av25] {
+    background-color: #DB5144;
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+.fa-linkedin[b-f2f2g7av25] {
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 20px;
+    width: 60px
+}
+
+.caixa[b-f2f2g7av25] {
+    position: relative;
+    z-index: 2;
+    margin-top: -30px;
+    grid-gap: 5px 8px;
+}
+.fa:hover[b-f2f2g7av25] {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
+    position: relative center;
+    z-index: 5
+}
